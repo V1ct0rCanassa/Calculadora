@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calcule Tudo</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title style="display: none";>Calcule Tudo</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
 </head>
 <body>
     <header>
         <div id="logo">Calcular</div>
         <nav>
             <ul id="navegar">
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="Pages/categorias.html">Categorias</a></li>
+                <li><a href="Pages/sobre.html">Sobre</a></li>
+                <li><a href="Pages/contato.html">Contatos</a></li>
             </ul>
         </nav>
     </header>
@@ -29,10 +29,40 @@
                 </ul>
             </nav>
         </section>
-        <section>
+        <section id="calculadorabas">
             <h2>Calculadora Básica</h2>
             <div id="calcbas">
-
+                <div id="tela">Resultado</div>
+                <table>
+                    <tr>
+                        <td><button class="botao"  onclick="clean()">C</button></td>
+                        <td><button class="botao" onclick="back()">'<'</button></td>
+                        <td><button class="botao" onclick="insert('/')">/</button></td>
+                        <td><button class="botao" onclick="insert('*')">*</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao" onclick="insert('7')" id="nur">7</button></td>
+                        <td><button class="botao" onclick="insert('8')" id="nur">8</button></td>
+                        <td><button class="botao" onclick="insert('9')" id="nur">9</button></td>
+                        <td><button class="botao" onclick="insert('-')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao" onclick="insert('4')" id="nur">4</button></td>
+                        <td><button class="botao" onclick="insert('5')" id="nur">5</button></td>
+                        <td><button class="botao" onclick="insert('6')" id="nur">6</button></td>
+                        <td><button class="botao" onclick="insert('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao" onclick="insert('1')" id="nur">1</button></td>
+                        <td><button class="botao" onclick="insert('2')" id="nur">2</button></td>
+                        <td><button class="botao" onclick="insert('3')" id="nur">3</button></td>
+                        <td rowspan="2"><button class="botao" id="igual" onclick="calcular()">=</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="botao" id="zero"  onclick="insert('0')"  id="nur">0</button></td>
+                        <td><button class="botao"  onclick="insert('.')"  id="nur">.</button></td>
+                    </tr>
+                </table>
             </div>
         </section>
         <section>
@@ -64,7 +94,6 @@
             </a>
         </div>
     </footer>
-    <script src="Scripts/calcular.js" defer></script>
 </body>
 
 </html>

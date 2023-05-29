@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+body{
+    width: 100%;
+}
+h1, a, p{
+    color: black;
+}
+header{
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+#logo{
+    margin-right: 50%;
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    width: 25%;
+}
+#navegar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: aquamarine;
+}
+#navegar li a{
+    text-decoration: none;
+    font-size: 120%;
+}
+
+main{
+    width: 100%;
+}
+#calculadorabas{
+    width: 50%;
+    background-color: blueviolet;
+    flex-direction: column;
+}
+#calcbas{
+  
+}
