@@ -23,7 +23,7 @@
             <h1 id="titulo">Titulo</h1>
             <nav>
                 <ul>
-                    <li></li>
+                    <li><a href=""></a></li>
                     <li></li>
                     <li></li>
                 </ul>
@@ -33,36 +33,36 @@
             <h2>Calculadora Básica</h2>
             <div id="calcbas">
                 <div id="tela">Resultado</div>
-                <table>
-                    <tr>
-                        <td><button class="botao"  onclick="clean()">C</button></td>
-                        <td><button class="botao" onclick="back()">'<'</button></td>
-                        <td><button class="botao" onclick="insert('/')">/</button></td>
-                        <td><button class="botao" onclick="insert('*')">*</button></td>
-                    </tr>
-                    <tr>
-                        <td><button class="botao" onclick="insert('7')" id="nur">7</button></td>
-                        <td><button class="botao" onclick="insert('8')" id="nur">8</button></td>
-                        <td><button class="botao" onclick="insert('9')" id="nur">9</button></td>
-                        <td><button class="botao" onclick="insert('-')">-</button></td>
-                    </tr>
-                    <tr>
-                        <td><button class="botao" onclick="insert('4')" id="nur">4</button></td>
-                        <td><button class="botao" onclick="insert('5')" id="nur">5</button></td>
-                        <td><button class="botao" onclick="insert('6')" id="nur">6</button></td>
-                        <td><button class="botao" onclick="insert('+')">+</button></td>
-                    </tr>
-                    <tr>
-                        <td><button class="botao" onclick="insert('1')" id="nur">1</button></td>
-                        <td><button class="botao" onclick="insert('2')" id="nur">2</button></td>
-                        <td><button class="botao" onclick="insert('3')" id="nur">3</button></td>
-                        <td rowspan="2"><button class="botao" id="igual" onclick="calcular()">=</button></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><button class="botao" id="zero"  onclick="insert('0')"  id="nur">0</button></td>
-                        <td><button class="botao"  onclick="insert('.')"  id="nur">.</button></td>
-                    </tr>
-                </table>
+                <div id="areanumeros">
+                    <ul>
+                        <li><button class="botao" onclick="clean()">C</button></li>
+                        <li><button class="botao" onclick="back()"><</button></li>
+                        <li><button class="botao" onclick="insert('/')">/</button></li>
+                        <li><button class="botao" onclick="insert('*')">*</button></li>
+                    </ul>
+                    <ul>
+                        <li><button class="botao" onclick="insert('7')" id="nur">7</button></li>
+                        <li><button class="botao" onclick="insert('8')" id="nur">8</button></li>
+                        <li><button class="botao" onclick="insert('9')" id="nur">9</button></li>
+                        <li><button class="botao" onclick="insert('-')" >-</button></li>
+                    </ul>
+                    <ul>
+                        <li><button class="botao" onclick="insert('4')" id="nur">4</button></li>
+                        <li><button class="botao" onclick="insert('5')" id="nur">5</button></li>
+                        <li><button class="botao" onclick="insert('6')" id="nur">6</button></li>
+                        <li><button class="botao" onclick="insert('+')" >+</button></li>
+                    </ul>
+                    <ul>
+                        <li><button class="botao" onclick="insert('3')" id="nur">3</button></li>
+                        <li><button class="botao" onclick="insert('2')" id="nur">2</button></li>
+                        <li><button class="botao" onclick="insert('1')" id="nur">1</button></li>
+                        <li><button class="botao" id="igual" onclick="calcular()">=</button></li>
+                    </ul>
+                    <ul>
+                        <li><button class="botao" id="zero" onclick="insert('0')" id="nur">0</button></li>
+                        <li><button class="botao" onclick="insert('.')"  id="nur">.</button></li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section>

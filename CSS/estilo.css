@@ -48,7 +48,38 @@ main{
     width: 50%;
     background-color: blueviolet;
     flex-direction: column;
+    padding: 2.5%;
+}
+h2{
+    margin-bottom: 2.5%;
 }
 #calcbas{
-  
+    width: 100%;
+
+}
+#tela{
+    background-color: violet;
+    width: 90%;
+    padding: 2.5%;
+    margin-bottom: 2.5%;
+}
+#areanumeros{
+    width: 90%;
+    background-color: aqua;
+}
+#areanumeros ul{
+    width: 100%;
+    flex-direction: row;
+}
+#areanumeros li{
+    width: 20%;
+    height: 50px;
+    margin: 1.5%;
+    background-color: rgb(86, 226, 43);
+}
+.botao{
+    width: 100%;
+    height: 100%;
+    margin: 1.5%;
+    background-color: rgb(167, 23, 196);
 }
