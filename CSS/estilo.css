@@ -1,85 +1,147 @@
-*{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+* {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-body{
-    width: 100%;
+body {
+  width: 100%;
 }
-h1, a, p{
-    color: black;
-}
-header{
-    display: flex;
-    background-color: aqua;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-}
-#logo{
-    margin-right: 50%;
-    font-size: 30px;
-}
-nav{
-    display: flex;
-    width: 25%;
-}
-#navegar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    background-color: aquamarine;
-}
-#navegar li a{
-    text-decoration: none;
-    font-size: 120%;
+h1,
+a,
+p {
+  color: black;
 }
 
-main{
-    width: 100%;
+/*Header*/
+header {
+  display: flex;
+  background-color: aqua;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
 }
-#calculadorabas{
-    width: 50%;
-    background-color: blueviolet;
-    flex-direction: column;
-    padding: 2.5%;
+#logo {
+  margin-right: 50%;
+  font-size: 30px;
 }
-h2{
-    margin-bottom: 2.5%;
+nav {
+  display: flex;
+  width: 25%;
 }
-#calcbas{
-    width: 100%;
+#navegar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  background-color: aquamarine;
+}
+#navegar li a {
+  text-decoration: none;
+  font-size: 120%;
+}
 
+/*Main*/
+main {
+  width: 100%;
 }
-#tela{
-    background-color: violet;
-    width: 90%;
-    padding: 2.5%;
-    margin-bottom: 2.5%;
+#inicio {
+  width: 100%;
+  background-color: beige;
+  margin-top: 6.5%;
+  margin-bottom: 6.5%;
 }
-#areanumeros{
-    width: 90%;
-    background-color: aqua;
+#titulo {
+  font-size: 50px;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
-#areanumeros ul{
+#areaarea {
+  width: 100%;
+}
+#areas {
+  background-color: aqua;
+  width: 100%;
+  flex-direction: row;
+}
+#areas li {
+  width: 100%;
+  padding: 2.5%;
+}
+#areas a {
+  font-size: 25px;
+  text-decoration: none;
+  background-color: blue;
+  width: 50%;
+  padding: 5.5%;
+  transition: 0.5s;
+}
+#areas a:hover {
+  color: white;
+  background-color: rgb(0, 255, 34);
+  width: 60%;
+}
+#calculadorabas {
+  width: 50%;
+  background-color: blueviolet;
+  flex-direction: column;
+  padding: 2.5%;
+  margin-bottom: 8%;
+}
+h2 {
+  margin-bottom: 2.5%;
+}
+#calcbas {
+  width: 100%;
+}
+#tela {
+  background-color: violet;
+  width: 90%;
+  padding: 2.5%;
+  margin-bottom: 2.5%;
+}
+#areanumeros {
+  width: 90%;
+  background-color: aqua;
+}
+#areanumeros ul {
+  width: 100%;
+  flex-direction: row;
+}
+#areanumeros li {
+  width: 20%;
+  height: 50px;
+  margin: 1.5%;
+  background-color: rgb(86, 226, 43);
+}
+.botao {
+  width: 100%;
+  height: 100%;
+  margin: 1.5%;
+  background-color: rgb(167, 23, 196);
+}
+
+
+/*Footer*/
+footer{
     width: 100%;
+    background-color: blue;
+}
+#direitos{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     flex-direction: row;
 }
-#areanumeros li{
-    width: 20%;
-    height: 50px;
-    margin: 1.5%;
-    background-color: rgb(86, 226, 43);
+#imagemvitinho{
+    width: 5%;
+    margin-left: 2.5%;
 }
-.botao{
+#eu{
+    border-radius: 10px;
     width: 100%;
-    height: 100%;
-    margin: 1.5%;
-    background-color: rgb(167, 23, 196);
 }

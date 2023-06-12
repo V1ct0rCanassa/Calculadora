@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+<head style="display: none;">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title style="display: none";>Calcule Tudo</title>
+    <title>Calcule Tudo</title>
     <link rel="stylesheet" href="CSS/estilo.css">
 </head>
 <body>
@@ -19,20 +19,20 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section id="inicio">
             <h1 id="titulo">Titulo</h1>
-            <nav>
-                <ul>
-                    <li><a href=""></a></li>
-                    <li></li>
-                    <li></li>
+            <nav id="areaarea">
+                <ul id="areas">
+                    <li><a href="">Matemática</a></li>
+                    <li><a href="">Ciências</a></li>
+                    <li><a href="">Calculos Gerais </a></li>
                 </ul>
             </nav>
         </section>
         <section id="calculadorabas">
             <h2>Calculadora Básica</h2>
             <div id="calcbas">
-                <div id="tela">Resultado</div>
+                <div id="tela"></div>
                 <div id="areanumeros">
                     <ul>
                         <li><button class="botao" onclick="clean()">C</button></li>
@@ -65,35 +65,17 @@
                 </div>
             </div>
         </section>
-        <section>
-            <h3>Outras calculadoras</h3>
-            <nav>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </nav>
-        </section>
+        
     </main>
     <footer>
-        <div id="redes">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
         <div id="direitos">
             <h4>Todos os Direitos reservados a Victor</h4>
-            <a href="https://github.com/V1ct0rCanassa">
-                <img src="" alt="">
+            <a href="https://github.com/V1ct0rCanassa" id="imagemvitinho">
+                <img src="https://avatars.githubusercontent.com/u/103062205?v=4" alt="" id="eu">
             </a>
         </div>
     </footer>
+    <script src="Scripts/calcular.js"></script>
 </body>
 
 </html>
