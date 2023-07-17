@@ -76,23 +76,84 @@ main {
   width: 100%;
   flex-direction: row;
 }
-#areas li {
+.listaarea {
   width: 100%;
   padding: 2.5%;
 }
-#areas a {
+.botaoarea {
   font-size: 25px;
+  font-weight: bolder;
   text-decoration: none;
-  width: 50%;
+  width: 60%;
   padding: 5.5%;
   transition: 0.5s;
   background-color: #e95a18;
+  border: none;
   border-radius: 10px;
   box-shadow: -3px 3px  #d6b2a2b7;
 }
-#areas a:hover {
+.botaoarea:hover {
   color: white;
-  width: 60%;
+  width: 70%;
+}
+.areacategorias{
+  display: none;
+  position: fixed;
+  width: 80%;
+  background-color: #e95a18fb;
+  justify-content: center;
+  flex-direction: column;
+  top: 80px;
+  left: 140px;
+  z-index: 1000;
+  box-shadow: -3px 3px  #d6b2a2b7;
+  border-radius: 10px;
+}
+.areacategorias h3{
+  width: 100%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.areacategorias ul{
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+}
+.areacategorias li{
+  width: 100%;
+}
+.areacategorias a{
+  width: 100%;
+  text-decoration: none;
+}
+.botaotipos{
+  width: 35%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+  border-radius: 10px;
+  border: none;
+  background-color: #FFE4C4;
+  box-shadow: -3px 3px  #d6b2a2b7;
+  transition: 1s;
+}
+.botaotipos:hover{
+  width: 40%;
+  background-color: #fac686;
+}
+#sair{
+  width: 10%;
+  margin-bottom: 4%;
+  margin-left: 95%;
+}
+#sair:hover{
+  width: 20%;
 }
 #calculadorabas {
   width: 50%;

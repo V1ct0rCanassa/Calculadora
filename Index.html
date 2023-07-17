@@ -26,9 +26,55 @@
             <h1 id="titulo">Calc. </br>O site de calcular</h1>
             <nav id="areaarea">
                 <ul id="areas">
-                    <li><a href="">Matemática</a></li>
-                    <li><a href="">Ciências</a></li>
-                    <li><a href="">Calculos Gerais </a></li>
+                    <li class="listaarea">
+                        <button class="botaoarea" onclick="abrir1()">Matemática</button>
+                        <div class="areacategorias" id="area1">
+                            
+                            <h3>Tipos de calculos</h3>
+                            <ul>
+                                <li><button class="botaotipos"><a href="#">Pitagoras</a></button></li>
+                                <li><button class="botaotipos"><a href="#">Seno, Cosseno e Tangente</a></button></li>
+                                <li><button class="botaotipos"><a href="#">Regra de Três</a></button></li>
+                                <li><button class="botaotipos"><a href="#">Tales</a></button></li>
+                                <li><button id="mais" class="botaotipos">mais...</button></li>
+                                <li><button class="botaotipos" id="sair" onclick="sair()">Sair</button></li>
+                            </ul>
+                            
+                        </div>
+                    </li>
+                    <li class="listaarea">
+                        <button class="botaoarea" onclick="abrir2()">Ciências</button>
+                        <div class="areacategorias" id="area2">
+                            
+                            <h3>Tipos de calculos</h3>
+                            <ul>
+                                <li><button class="botaotipos"><a href="#">Pitagoras</a></button></li>
+                                <li><button class="botaotipos"><a href="#">Seno, Cosseno e Tangente</a></button></li>
+                                <li><button class="botaotipos"><a href="#">Regra de Três</a></button></li>
+                                <li><button class="botaotipos"><a href="#">Tales</a></button></li>
+                                <li><button id="mais" class="botaotipos">mais...</button></li>
+                                <li><button class="botaotipos" id="sair" onclick="sair()">Sair</button></li>
+                            </ul>
+                            
+                        </div>
+
+                    </li>
+                    <li class="listaarea">
+                        <button class="botaoarea" onclick="(abrir3())">Calculos Gerais</button>
+                        <div class="areacategorias" id="area3">
+                            
+                            <h3>Tipos de calculos</h3>
+                            <ul>
+                                <li><button class="botaotipos"><a href="#">Pitagoras</a></button></li>
+                                <li><button class="botaotipos"><a href="#">Seno, Cosseno e Tangente</a></button></li>
+                                <li><button class="botaotipos"><a href="#">Regra de Três</a></button></li>
+                                <li><button class="botaotipos"><a href="#">Tales</a></button></li>
+                                <li><button id="mais" class="botaotipos">mais...</button></li>
+                                <li><button class="botaotipos" id="sair" onclick="sair()">Sair</button></li>
+                            </ul>
+                            
+                        </div>
+                    </li>
                 </ul>
             </nav>
         </section>
@@ -78,7 +124,7 @@
             </a>
         </div>
     </footer>
-    <script src="Scripts/calcular.js"></script>
+    <script src="Scripts/Index.js"></script>
 </body>
 
 </html>
